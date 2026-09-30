@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamas.Shared", "Shared\Seamas.Shared.csproj", "{AE5F4B96-5FC1-4FF2-8DAA-947A9E71C8D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamas.Shared", "Seamas.Shared\Seamas.Shared.csproj", "{AE5F4B96-5FC1-4FF2-8DAA-947A9E71C8D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
