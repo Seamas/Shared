@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>13.0</LangVersion>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RootNamespace>Wang.Seamas.Shared</RootNamespace>
+        <Version>1.0.0</Version>
+        <Authors>Seamas Wang</Authors>
+        <Description>Share with multiple projects</Description>
+        <PackageProjectUrl>https://github.com/Seamas/Seamas.Shared</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Seamas/Seamas.Shared</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+</Project>
