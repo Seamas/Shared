@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>13.0</LangVersion>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Wang.Seamas.Shared.Aop</PackageId>
+        <RootNamespace>Wang.Seamas.Shared.Aop</RootNamespace>
+        <Version>1.0.0</Version>
+        <Authors>Seamas Wang</Authors>
+        <Description>Aop for Shared</Description>
+        <PackageProjectUrl>https://github.com/Seamas/Seamas.Shared</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Seamas/Seamas.Shared</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Interceptors\" />
+      <Folder Include="Extensions\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Castle.Core" Version="5.2.1" />
+      <PackageReference Include="Castle.Core.AsyncInterceptor" Version="2.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shared\Seamas.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

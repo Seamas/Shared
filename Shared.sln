@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamas.Shared", "Shared\Seamas.Shared.csproj", "{AE5F4B96-5FC1-4FF2-8DAA-947A9E71C8D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamas.Shared.Aop", "Seamas.Shared.Aop\Seamas.Shared.Aop.csproj", "{D9C2A4D4-352D-42A9-BD44-EEF354502533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{AE5F4B96-5FC1-4FF2-8DAA-947A9E71C8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE5F4B96-5FC1-4FF2-8DAA-947A9E71C8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE5F4B96-5FC1-4FF2-8DAA-947A9E71C8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C2A4D4-352D-42A9-BD44-EEF354502533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C2A4D4-352D-42A9-BD44-EEF354502533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C2A4D4-352D-42A9-BD44-EEF354502533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C2A4D4-352D-42A9-BD44-EEF354502533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
