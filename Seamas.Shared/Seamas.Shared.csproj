@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
@@ -7,8 +7,9 @@
         <LangVersion>13.0</LangVersion>
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Wang.Seamas.Shared</PackageId>
         <RootNamespace>Wang.Seamas.Shared</RootNamespace>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Seamas Wang</Authors>
         <Description>Share with multiple projects</Description>
         <PackageProjectUrl>https://github.com/Seamas/Seamas.Shared</PackageProjectUrl>

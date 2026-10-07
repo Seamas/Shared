@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>14.0</LangVersion>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Wang.Seamas.Shared.AspNetCore</PackageId>
+        <RootNamespace>Wang.Seamas.Shared.AspNetCore</RootNamespace>
+        <Version>1.0.1</Version>
+        <Authors>Seamas Wang</Authors>
+        <Description>AspNetCore shared components (filters, middlewares, exception handling) for Shared</Description>
+        <PackageProjectUrl>https://github.com/Seamas/Seamas.Shared</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Seamas/Seamas.Shared</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Shared\Seamas.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
